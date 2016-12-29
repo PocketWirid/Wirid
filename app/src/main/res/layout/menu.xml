@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#BDFFAE">
+
+
+    <Button
+        android:id="@+id/b_pagi"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="WIRID PAGI"
+        android:layout_marginBottom="10dp"
+        android:textColor="#BDFFAE"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:background="@color/colorPrimaryDark"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="WIRID SORE"
+        android:textColor="#BDFFAE"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:background="@color/colorPrimaryDark"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="WIRID MALAM"
+        android:textColor="#BDFFAE"
+        android:layout_marginBottom="10dp"
+        android:foreground="?attr/selectableItemBackground"
+        />
+
+    <Button
+        android:id="@+id/b_pengaturan"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="PENGATURAN"
+        android:textColor="#000"
+        android:background="@drawable/anim"
+        />
+
+</LinearLayout>
